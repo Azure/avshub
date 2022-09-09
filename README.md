@@ -1,9 +1,8 @@
-# Project
+# Azure VMware Solution Hub
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+> This repo contains the content of avshub.io page
 
-As the maintainer of this project, please make a few updates:
+To do:
 
 - Improving this README.MD file to provide a great experience
 - Updating SUPPORT.MD with content about this project's support experience
