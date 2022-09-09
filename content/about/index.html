@@ -1,0 +1,56 @@
+---
+title: "About "
+menu:
+  main:
+    weight: 100
+---
+{{< blocks/cover  height="full" color="white">}}
+
+{{< blocks/section height="full" color="white">}}
+<div style="float: center;text-align:center; vertical-align:middle">
+	<div style="float: center;text-align:center; vertical-align:middle">
+<h1>About Our Team</h1>
+<br/>
+
+  <h3>
+    We are part of Microsoft's U.S. Global Partner Solution team, focused on AVS
+    skilling and enablement
+  </h3>
+
+</div>
+
+
+<script>
+  var contents = new Array();
+
+  document.write("<table style='width:100%''><tr>");
+  contents[0] = `<td><img border="0" src="roberto2.png">
+			<br><a href="https://www.linkedin.com/in/robertojcanton/"><img src="in.png">Roberto Canton</a><div style="float: left; text-align: left">
+				Principal Cloud Solution  Architect
+				</div></td>`;
+
+  contents[1] = `<td><img border="0" src="husam.png">
+			<br><a href="https://www.linkedin.com/in/husamhilal/"><img src="in.png">Husam Hilal</a><div style="float: left; text-align: left">
+				Senior Cloud Solution Architect</div></td>`;
+
+  contents[2] = `<td><img border="0" src="enrique.png">
+			<br><a href="https://www.linkedin.com/in/egc/"	"><img src="in.png">Enrique Gonzalez</a><div style="float: left; text-align: left">
+				Senior Cloud Solution Architect</div></td>`;
+
+  var i = 0;
+  var random;
+  var spacing = "<br>";
+  document.write(spacing);
+  while (i < contents.length) {
+    random = Math.floor(Math.random() * contents.length);
+    if (contents[random] != "selected") {
+      document.write(contents[random] + spacing);
+      contents[random] = "selected";
+      i++;
+    }
+  }
+  document.write("</tr></table>");
+</script>
+</div>
+{{< /blocks/section >}}
+{{< /blocks/cover>}}
