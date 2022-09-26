@@ -22,7 +22,7 @@ In this Section, you will learn just a few additional NSX-T Advanced Features. Y
 
 ## **NSX-T Tags**
 
-NSX-T Tags hel you label NSX-T Data Center objects so that you can quickly search or filter objects, troubleshoot and trace, and do other related tasks.
+NSX-T Tags help you label NSX-T Data Center objects so that you can quickly search or filter objects, troubleshoot and trace, and do other related tasks.
 
 You can create tags using both the NSX-T UI available within AVS and APIs. 
 

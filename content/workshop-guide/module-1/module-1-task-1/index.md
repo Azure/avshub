@@ -176,7 +176,7 @@ Once connected to your Jumpbox, open a browser and enter the IP Address for AVS 
 
 ![](Mod1Task1Pic17.png)
 
-If the **VMware vSphere login page launches successfully, then everything is working as expected.
+If the **VMware vSphere login page** launches successfully, then everything is working as expected.
 
 You’ve now confirmed that you can access AVS from a remote environment
 

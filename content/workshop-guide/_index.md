@@ -29,6 +29,8 @@ following credentials:
 Your first task should be to create a Jumpbox in your respective Jumpbox
 Resource group.
 
+> NOTE: In addition to the instructions below, you can watch [this video](https://youtu.be/LABTkfJZmPc) which will explain the same steps and get you ready for deploying the Jumpbox.
+
 ### **Exercise 1: Instructions for Creation of Jumpbox**
 
 #### Step 1: Create Azure Virtual Machine
@@ -48,7 +50,7 @@ The next step, could be confusing and often, a source of mistakes. Please, pay s
 
 - Please notice that **PARTNER1** is just a **PLACEHOLDER** most likely for your organization's name. Reach out to the moderators for guidance 
   
-- **Do not create a new resource group**, see the notes below about the correct resource group to choose from
+- **Do not create a new resource group**, please use the existing one. See the notes below about the correct resource group to choose from
   
 - Also, once you select the correct resource group the **region** will be defaulted (populated) with the right value
 {{% /alert %}}

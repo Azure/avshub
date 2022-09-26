@@ -1,12 +1,13 @@
 ---
 title: "Module 4 - Secure Hub"
-linkTitle: "Module 4 - Create a VWAN Hub"
+linkTitle: "Module 4 - vWAN Secure Hub"
 weight: 1
 
 description: >
   Module 4: Create and configure a Secure Hub to route traffic to the internet
 ---
 
+> **This module is being updated**. Some of the instructions and screenshots may not be applicable anymore. However, the concept is still valid and can be applied.
 
 ## Introduction
 
