@@ -29,7 +29,7 @@ following credentials:
 Your first task should be to create a Jumpbox in your respective Jumpbox
 Resource group.
 
-> NOTE: In addition to the instructions below, you can watch [this video](https://youtu.be/LABTkfJZmPc) which will explain the same steps and get you ready for deploying the Jumpbox.
+> NOTE: In addition to the instructions below, you can watch **[this video](https://youtu.be/LABTkfJZmPc)** which will explain the same steps and get you ready for deploying the Jumpbox.
 
 ### **Exercise 1: Instructions for Creation of Jumpbox**
 
@@ -60,7 +60,7 @@ The next step, could be confusing and often, a source of mistakes. Please, pay s
 1. Select Basics tab.
 2. Select the appropriate Resource group per the table below.
 3. Give your Jumpbox a unique name you wish.
-4. Ensure the appropriate region is selected.
+4. Ensure the appropriate region is selected. Usually it is the default **region** given you have selected the right Resource Group (see step #1).
 5. Select the type of image.
 > Operating System: Windows 10 or Windows 11
 6. Ensure the correct Size is selected.
@@ -81,8 +81,9 @@ Leave all other defaults and jump to **Networking** tab.
 
 1. Click on **Networking** tab.
 2. Select the appropriate VNet based on the table below.
-> NOTE: This is not the VNet that is loaded by default.
-3. If the appropriate VNet was selected it should auto-populate the JumpBox subnet.
+> NOTE: This is **not** the VNet that is loaded by default.
+3. If the appropriate VNet was selected it should auto-populate the JumpBox subnet. If not, please make sure to select the JumpBox Subnet.
+> NOTE: Please select **None** for Public IP. You will not need it. Instead, you'll be using **Azure Bastion**, which is already deployed, to access (RDP) into the JumpBox VM.
 4. Select "Delete public IP and NIC when VM is deleted" checkbox.
 5. Click **Review + Create** -> **Create**.
 
@@ -110,8 +111,11 @@ This should open a new browser tab and connect you to the Jumpbox, enter the Use
 
 ### **vCenter, HCX, and NSX-T URLs**
 
-Please refer to the Identity blade in the Azure portal for AVS vCenter, HCX, and
-NSX-T URLs and Login Information.
+Please refer to the **Identity** section under the AVS blade in the Azure portal to retrieve URLs and Login information for vCenter, HCX, and NSX-T.
+
+> NOTE: Use the same vCenter credentials to access HCX portal if needed.
+
+![](MainPic6.png)
 
 **PLEASE DO NOT CLICK GENERATE A NEW PASSWORD BUTTON UNDER CREDENTIALS IN AZURE PORTAL**
 

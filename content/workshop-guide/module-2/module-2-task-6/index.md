@@ -35,6 +35,8 @@ Once logged in, In **Licensing**, enter your key for **HCX Advanced Key** and se
 
 In **Datacenter Location**, provide the nearest biggest city to your location for installing the VMware HCX Manager On-Premises. Then select **Continue**. In **System Name**, modify the name to **HCX-OnPrem-XY** and click **Continue**.
 
+> Note: The city location does not matter in this lab. It's just a named location for visualization purposes.
+
 #### Step 4: Continue to complete configuration
 
 ![](Mod2Task6Pic4.png)
