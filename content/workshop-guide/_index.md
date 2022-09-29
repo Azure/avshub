@@ -18,7 +18,7 @@ cascade:
 Connect to [https://portal.azure.com](https://portal.azure.com) with the
 following credentials:
 
-| **Username** | Group**\#**@vmwaresales101outlook.onmicrosoft.com |
+| **Username** | GPSUS-Group#@vmwaresales101outlook.onmicrosoft.com |
 | ------------ | ------------------------------------------------- |
 | **Password** | TO BE SUPPLIED                                    |
 
