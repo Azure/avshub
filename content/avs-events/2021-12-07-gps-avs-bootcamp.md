@@ -31,13 +31,13 @@ considerations Case studies Event Overview and Logistics:
 - Advanced Storage Considerations 
 - Advanced Networking for AVS
 
-### Day 2:
+### Day 2
 
 - Designing for Enterprise Scale 
 - Backup and Disaster Recovery 
 - SRM for AVS 
 
-### Day 3:
+### Day 3
 
 - Migration Scenarios and Examples
 - Advanced Specialization and other Partner Programs 

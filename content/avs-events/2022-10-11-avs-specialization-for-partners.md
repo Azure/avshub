@@ -1,6 +1,6 @@
 ---
 title: "Everything you need to know about AVS Specialization"
-linkTitle: "Everything you need to know about AVS Specialization"
+linkTitle: "Everything you need to know about AVS Specialization, 2022-10-11"
 date: 2022-10-11
 ---
 
