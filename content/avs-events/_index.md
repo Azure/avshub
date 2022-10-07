@@ -7,5 +7,5 @@ menu:
 cascade:
   - type: "docs"
 description: >
- AVS events
+ List of Past and Future AVS events recommended to be consumed.
 ---
