@@ -5,7 +5,7 @@ menu:
   main:
     weight: 10
 cascade:
-  - type: "blog"
+  - type: "docs"
 description: >
- AVS events
+ List of Past and Future AVS events recommended to be consumed.
 ---

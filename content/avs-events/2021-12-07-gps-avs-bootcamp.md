@@ -1,15 +1,17 @@
 ---
-title: "GPS Azure VMware Solution Boot Camp"
-linkTitle: "GPS AVS Boot Camp, 2021-12-07"
+title: "12/07/2021 - GPS Azure VMware Solution Boot Camp"
+linkTitle: "GPS AVS Boot Camp, 12/07/2021"
+weight: 1000
 date: 2021-12-07
+
+description: >
+    This three half-day Azure VMware Solution (AVS) Partner Boot Camp, part of our
+    GPS Azure Partner Tech Intensity Training, is designed to further enhance your
+    AVS technical abilities through interactive presentations from some of the top
+    Microsoft AVS architects.
 ---
 
-[GPS Azure VMware Solution Boot Camp](https://msuspartners.eventbuilder.com/GPSAzureVMwareSolutionBootCamp)
-
-This three half-day Azure VMware Solution (AVS) Partner Boot Camp, part of our
-GPS Azure Partner Tech Intensity Training, is designed to further enhance your
-AVS technical abilities through interactive presentations from some of the top
-Microsoft AVS architects.
+Click here to view recording: [<span style="color:blue">**GPS Azure VMware Solution Boot Camp**</span>](https://msuspartners.eventbuilder.com/GPSAzureVMwareSolutionBootCamp)
 
 This virtual event is offered to all managed partners looking to increase there
 technical understanding of Azure VMware Services while considering business
@@ -31,13 +33,13 @@ considerations Case studies Event Overview and Logistics:
 - Advanced Storage Considerations 
 - Advanced Networking for AVS
 
-### Day 2:
+### Day 2
 
 - Designing for Enterprise Scale 
 - Backup and Disaster Recovery 
 - SRM for AVS 
 
-### Day 3:
+### Day 3
 
 - Migration Scenarios and Examples
 - Advanced Specialization and other Partner Programs 
