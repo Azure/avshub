@@ -26,16 +26,28 @@ following credentials:
 
 ### **Jumpbox Details**
 
-Your first task should be to create a Jumpbox in your respective Jumpbox
+Your **first** task will be creating a Jumpbox in your respective Jumpbox
 Resource group.
 
-> NOTE: In addition to the instructions below, you can watch **[this video](https://youtu.be/LABTkfJZmPc)** which will explain the same steps and get you ready for deploying the Jumpbox.
+> **NOTE**: In addition to the instructions below, you can watch **[this video](https://youtu.be/LABTkfJZmPc)** which will explain the same steps and get you ready for deploying the Jumpbox.
+
+The following table will help you identify the Resource Group, Virtual Network (vNET) and Subnet in which you will be deploying your Jumpbox VM.
+> **Replace the word 'Name' with Partner name, and 'X' with your Group Number**
+
+| **Group** | **Jumpbox Resource Group** | **Virtual Network/Subnet** |
+| --------- | -------------------------- | -------------------------- |
+| X         | GPSUS-NameX-Jumpbox        | GPSUS-NameX-VNet/JumpBox   |
+
+**Example** -  Partner name is ABC and Group number is 2:
+| **Group** | **Jumpbox Resource Group** | **Virtual Network/Subnet** |
+| --------- | -------------------------- | -------------------------- |
+| 2         | GPSUS-ABC2-Jumpbox        | GPSUS-Name2-VNet/JumpBox   |
 
 ### **Exercise 1: Instructions for Creation of Jumpbox**
 
 #### Step 1: Create Azure Virtual Machine
 
-In the Azure Portal locate the Virtual Machines area.
+In the Azure Portal locate the Virtual Machines blade.
 
 ![](MainPic1.png)
 
@@ -57,14 +69,14 @@ The next step, could be confusing and often, a source of mistakes. Please, pay s
 
 ![](MainPic2.png)
 
-1. Select Basics tab.
-2. Select the appropriate Resource group per the table below.
-3. Give your Jumpbox a unique name you wish.
-4. Ensure the appropriate region is selected. Usually it is the default **region** given you have selected the right Resource Group (see step #1).
-5. Select the type of image.
+1. Select **Basics** tab.
+2. Select the appropriate **Resource group** per the table below.
+3. Give your Jumpbox a unique **name** you wish. As suggestion you can use your name initials with the word Jumpbox (i.e. for John Smith it will be **JS-Jumpbox**)
+4. Ensure the appropriate **Region** is selected. Usually it is the default **region** given you have selected the right Resource Group (see step #1).
+5. Select the type of the VM image.
 > Operating System: Windows 10 or Windows 11
 6. Ensure the correct Size is selected.
-> Size: Standard D2s v3 (2vcpus, 8GiB memory)
+> Size: Standard D2s v3 (2vCPUs, 8GiB memory)
 
 Leave other defaults and scroll down on the Basics tab.
 
@@ -77,6 +89,10 @@ Leave all other defaults and jump to **Networking** tab.
 
 #### Step 3: Azure Virtual Machine Networking Information
 
+{{% alert color="warning" %}}  
+Make sure to select 'None' next to the **Public IP** field.
+{{% /alert %}}
+
 ![](MainPic4.png)
 
 1. Click on **Networking** tab.
@@ -88,36 +104,27 @@ Leave all other defaults and jump to **Networking** tab.
 5. Click **Review + Create** -> **Create**.
 
 
-> **Replace the word 'Name' with Partner name**
-
-| **Group** | **Jumpbox Resource Group** | **Virtual Network/Subnet** |
-| --------- | -------------------------- | -------------------------- |
-| 1         | GPSUS-Name1-Jumpbox        | GPSUS-Name1-VNet/JumpBox   |
-| 2         | GPSUS-Name2-Jumpbox        | GPSUS-Name2-VNet/JumpBox   |
-| 3         | GPSUS-Name3-Jumpbox        | GPSUS-Name3-VNet/JumpBox   |
-| 4         | GPSUS-Name4-Jumpbox        | GPSUS-Name4-VNet/JumpBox   |
-
 #### Step 4: Connect to your Azure Virtual Machine Jumpbox
 
 ![](MainPic5.png)
 
-Once your Jumpbox finishes creating, go to it and click:
-1. Connect
-2. Bastion
+Once your Jumpbox finishes creating, go to it and click: **Connect &#8594; Bastion**
 
 This should open a new browser tab and connect you to the Jumpbox, enter the Username and Password you specified for your Jumpbox.
 
-## **AVS Environments**
+> Make sure you allow pop-ups in your Internet browser for Azure Bastion to work properly.
 
-### **vCenter, HCX, and NSX-T URLs**
+## **VMware Environments**
 
-Please refer to the **Identity** section under the AVS blade in the Azure portal to retrieve URLs and Login information for vCenter, HCX, and NSX-T.
+### **AVS vCenter, HCX, and NSX-T URLs**
+
+Please refer to the **VMware Credentials** section under the AVS blade in the Azure portal to retrieve URLs and Login information for vCenter, HCX, and NSX-T.
 
 > NOTE: Use the same vCenter credentials to access HCX portal if needed.
 
 ![](MainPic6.png)
 
-**PLEASE DO NOT CLICK GENERATE A NEW PASSWORD BUTTON UNDER CREDENTIALS IN AZURE PORTAL**
+> PLEASE DO NOT CLICK GENERATE A NEW PASSWORD BUTTON UNDER CREDENTIALS IN AZURE PORTAL
 
 **Note**: In a real customer environment, the local
 [cloudadmin@vsphere.local](mailto:cloudadmin@vsphere.local) account should be
@@ -125,6 +132,12 @@ treated as an emergency access account for "break glass" scenarios in your
 private cloud. It's not for daily administrative activities or integration with
 other services. For more information see
 [here](https://docs.microsoft.com/en-us/azure/azure-vmware/concepts-identity)
+
+In AVS you can predict the IP addresses for vCenter (.2), NSX-T Manager (.3)
+ and HCX (.9). For instance, if you choose 10.20.0.0/22 as your AVS Management CIDR block, the IPs will be as following:
+| **vCenter** | **NSX-T** | **HCX** |
+| --------- | --------- | ---------- |
+| 10.20.0.**2**  | 10.20.0.**3** | 10.20.0.**9**  |
 
 ### **On-Premises VMware Lab Environment**
 
@@ -138,7 +151,7 @@ If you are in a group with multiple participants you will be assigned a particip
 | --------- | --------------- | -------------- | --------------------------- | ------------ | ------------------- | ------------------- |
 | X         | Y               | 10.X.Y.2       | administrator@avs.lab | MSFTavs1! | 10.X.1Y.1/25        | 10.X.1Y.129/25      |
 
-#### Example for Group **1** with **4** participants
+#### Example for Group number **1** with **4** participants
 
 | **Group** | **Participant** | **vCenter IP** | **Username**                | **Password** | **Web workload IP** | **App Workload IP** |
 | --------- | --------------- | -------------- | --------------------------- | ------------ | ------------------- | ------------------- |

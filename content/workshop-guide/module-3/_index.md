@@ -13,7 +13,9 @@ VMware Site Recovery Manager (SRM) for Azure VMware Solution (AVS) is an add-on 
 
 For more information on VMware Site Recovery Manager (SRM), visit VMware's official documentation for [Site Recovery Manager.](https://www.vmware.com/products/site-recovery-manager.html)
 
-This module walks through the implementation of a disaster recovery solution for Azure VMware Solution (AVS), based on VMware Site Recovery Manager (SRM).
+This module walks through the implementation of a disaster recovery solution for Azure VMware Solution (AVS), based on VMware Site Recovery Manager (SRM). 
+
+Click [here](https://www.youtube.com/watch?v=ZH-2z0R4FB4) if you'd like to see 10 minutes [**demo**](https://www.youtube.com/watch?v=ZH-2z0R4FB4) for SRM on AVS.
 
 ### What you will learn
 

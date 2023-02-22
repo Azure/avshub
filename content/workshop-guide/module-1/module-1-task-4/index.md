@@ -30,6 +30,10 @@ More information on NSX-T Tags can be found here: [VMware NSX-T Data Center Docu
 
 ### **Exercise 1: Assign NSX-T Tags to VMs**
 
+{{% alert title="Two Test VMs required" color="warning" %}}  
+Please make sure that you have created 2 Test VMs as explained in the previous Task before you proceed in this exercise.
+{{% /alert %}}
+
 #### Step 1: Assign Tags to your VMs
 
 ![](Mod1Task3Pic1.png)

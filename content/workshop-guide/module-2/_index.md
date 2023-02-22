@@ -28,11 +28,10 @@ In this module, we will go through the steps to Install HCX, configure and migra
 ### **Prerequisites**
 
 - Ensure that Module 1 has been completed successfully as this will be required to connect HCX from AVS to the On-Premises Lab. 
-- Jumphost from AVS should be able to ping following ip addresses:
-    -   AVS vCenter: get from the Azure Portal
-    -   On-prem vCenter: 10.**X**.**Y**.2
+- Ability to reach out to vCenter portal from Jumpbox VM:
+    -   AVS vCenter: Get IP from Azure Portal - AVS blade
+    -   On-premises vCenter: 10.**X**.**Y**.2
 
 > Remember that **X** is your group number and **Y** your participant number.
 
 -   Review HCX documentation on VMware's site: [VMware HCX User Guide.](https://docs.vmware.com/en/VMware-HCX/4.0/hcx-user-guide/GUID-BFD7E194-CFE5-4259-B74B-991B26A51758.html)
-

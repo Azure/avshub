@@ -45,7 +45,7 @@ Once the Service Mesh appliances have been deployed, the next important step is 
 ![](Mod2Task12Pic3.png)
 
 1. **Destination First Hop Router** - Ensure your own NSX-T T1 router you created earlier is selected.
-2. Enter the **Gateway IP Address / Prefix Length** for the **OnPrem-workload-XY** network. You can find this information in the [On-Premises Lab Environment](/docs/#on-premises-vmware-lab-environment) section.
+2. Enter the **Gateway IP Address / Prefix Length** for the **OnPrem-workload-XY** network. You can find this information in the [On-Premises Lab Environment](../../#on-premises-vmware-lab-environment) section.
 - Example: 10.**X**.1**Y**.1/25, where **X** is your group number and **Y** is your participant number.
 3. Ensure your own **Extension Appliance** is selected.
 4. Confirm your own T1 is selected under **Destination First Hop Router**.

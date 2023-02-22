@@ -36,7 +36,9 @@ In this section, we will integrate and configure HCX Manager with the On-Premise
 
 Verify that the information entered is correct and select **RESTART**.
 
-The restart may take up to 10 minutes.
+{{% alert title="The Reboot process might take up to 15 minutes" color="warning" %}}  
+The reboot process might take between 10 to 15 minutes. Keep checking every 3-4 minutes to ensure you can get to HCX Manager.
+{{% /alert %}}
 
 ![](Mod2Task7Pic4.png)
 

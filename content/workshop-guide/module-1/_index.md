@@ -22,8 +22,8 @@ Customer needs to have connectivity between their workloads in AVS, existing ser
 This hands-on lab will show you how to configure the Networking components of an Azure VMware Solution for:
 
 -   Connecting Azure VNet’s to AVS over an ExpressRoute circuit **(Preconfigured)**.
--   Peering with remote environments using Global Reach **(Not Applicable)**.
--   AVS Interconnect Options.
+-   Peering with remote environments using Global Reach **(Not Applicable in this lab)**.
+-   AVS Interconnect Options
 -   Configuring NSX-T (check DNS and configure DHCP, Segments, and Gateway) to manage connectivity within AVS.
 
 The lab environment has a preconfigured Azure VMware Solution environment with an Express Route circuit. A nested or embedded VMware environment is configured to simulate an On-Premises environment **(PLEASE DO NOT TOUCH)**. Both environments are accessible through Bastions and JumpBoxes.

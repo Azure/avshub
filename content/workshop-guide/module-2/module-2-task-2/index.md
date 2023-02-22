@@ -15,7 +15,7 @@ The next step is to download HCX onto our On-Premises VMware environment, this w
 
 ![](Mod2Task2Pic1.png)
 
-1. Obtain the AVS vCenter credentials by going to your AVS Private Cloud blade in the Azure portal, select **Identity**.
+1. Obtain the AVS vCenter credentials by going to your AVS Private Cloud blade in the Azure portal, select **VMware credentials**.
 2. cloudadmin@vsphere.local is the local vCenter user for AVS, keep this handy.
 3. You can copy the Admin password to your clipboard and keep it handy as well.
 
