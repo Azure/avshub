@@ -26,7 +26,9 @@ This hands-on lab will show you how to configure the Networking components of an
 -   AVS Interconnect Options
 -   Configuring NSX-T (check DNS and configure DHCP, Segments, and Gateway) to manage connectivity within AVS.
 
-The lab environment has a preconfigured Azure VMware Solution environment with an Express Route circuit. A nested or embedded VMware environment is configured to simulate an On-Premises environment **(PLEASE DO NOT TOUCH)**. Both environments are accessible through Bastions and JumpBoxes.
+The lab environment has a preconfigured Azure VMware Solution environment with an Express Route circuit. A nested or embedded VMware environment is configured to simulate an On-Premises environment **(PLEASE DO NOT TOUCH)**. 
+
+Both environments are accessible through JumpBox VM that you can deploy in Azure. You can **RDP to Jumpbox** through a preconfigured [Azure Bastion](https://learn.microsoft.com/en-us/azure/bastion/bastion-overview) service.
 
 After this lab is complete, you will have built out this scenario below:
 

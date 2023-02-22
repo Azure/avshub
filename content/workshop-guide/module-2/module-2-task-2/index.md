@@ -19,7 +19,7 @@ The next step is to download HCX onto our On-Premises VMware environment, this w
 2. cloudadmin@vsphere.local is the local vCenter user for AVS, keep this handy.
 3. You can copy the Admin password to your clipboard and keep it handy as well.
 
-> Please access your own Bastion VM created at the beginning of the exercises.
+> Please access your own Jumpbox VM created at the beginning of the exercises.
 
 > Navigate to the Azure portal and connect to your Jumpbox.
 
