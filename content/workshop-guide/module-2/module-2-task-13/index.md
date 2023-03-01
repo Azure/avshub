@@ -7,6 +7,10 @@ description: >
   Task 13: Migrate a VM using HCX vMotion
 ---
 
+{{< alert color="success" >}}
+You will perform the instructions below from the On-premises VMware Environment
+{{< /alert >}}
+
 ## **Migrate a VM using HCX vMotion**
 
 Now that your Service Mesh has deployed the additional appliances HCX will utilize successfully, you can now migrate VMs from your on-premises environment to AVS. In this module, you will migrate a test VM called **Workload-XY-1** that has been pre-created for you in your simulated on-premises environment using HCX vMotion.

@@ -7,6 +7,10 @@ description: >
   Task 9: Create network profiles
 ---
 
+{{< alert color="success" >}}
+You will perform the instructions below from the On-premises VMware Environment
+{{< /alert >}}
+
 ## **HCX Network Profiles**
 
 A Network Profile is an abstraction of a Distributed Port Group, Standard Port Group, or NSX Logical Switch, and the Layer 3 properties of that network. A Network Profile is a sub-component of a complete Compute Profile.

@@ -7,6 +7,10 @@ description: >
   Task 10: Create compute profiles
 ---
 
+{{< alert color="success" >}}
+You will perform the instructions below from the On-premises VMware Environment
+{{< /alert >}}
+
 ## **HCX Compute Profile**
 
 A compute profile contains the compute, storage, and network settings that HCX uses on this site to deploy the interconnected dedicated virtual appliances when service mesh is added. For more information on compute profile and its creation please refer to [VMware documentation](https://docs.vmware.com/en/VMware-HCX/4.2/hcx-user-guide/GUID-BBAC979E-8899-45AD-9E01-98A132CE146E.html#:~:text=A%20Compute%20Profile%20contains%20the%20compute%2C%20storage%2C%20and,virtual%20appliances%20when%20a%20Service%20Mesh%20is%20added.).

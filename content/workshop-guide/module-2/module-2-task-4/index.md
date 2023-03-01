@@ -13,6 +13,10 @@ In this step, we will deploy the HCX VM with the configuration from the [On-Prem
 
 ### **Option 1: Deploy OVA from download.**
 
+{{< alert color="success" >}}
+You will perform the instructions below from the On-premises VMware Environment
+{{< /alert >}}
+
 #### Step 1: Deploy OVF Template
 
 ![](Mod2Task4Pic1.png)
@@ -63,6 +67,10 @@ Keep the defaults for:
 > Once done, navigate to Menu \> VM’s and Templates \> Power on the newly created HCX Manager VM. The boot process may take 10-15 minutes to complete.
 
 ### **Option 2: Deploy HCX from Content Library**
+
+{{< alert color="success" >}}
+You will perform the instructions below from the On-premises VMware Environment
+{{< /alert >}}
 
 #### Step 1: Create new VM from Template
 

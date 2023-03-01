@@ -7,6 +7,10 @@ description: >
   Task 12: Network Extension
 ---
 
+{{< alert color="success" >}}
+You will perform the instructions below from the On-premises VMware Environment
+{{< /alert >}}
+
 ## **HCX Network Extension**
 
 You can extend networks between and HCX-activated on-premises environment and Azure VMware Solution (AVS) with HCX Network Extension.

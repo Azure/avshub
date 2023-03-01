@@ -7,6 +7,10 @@ description: >
   Task 8: Create Site Pairing from On-premises HCX to AVS HCX
 ---
 
+{{< alert color="success" >}}
+You will perform the instructions below from the On-premises VMware Environment
+{{< /alert >}}
+
 ## **HCX Site Pairing**
 
 In this task, we will be creating the Site Pairing to connect the On-Premises HCX appliance to the AVS HCX appliance.

@@ -31,6 +31,10 @@ You can choose to do this Task in 2 different ways:
 
 #### Step 3: Log in to HCX Cloud Manager IP
 
+{{< alert color="success" >}}
+You will perform the instructions below from AVS VMware Environment
+{{< /alert >}}
+
 ![](Mod2Task3Pic3.png)
 
 From your Jumpbox, open a browser tab and paste the **HCX Cloud Manager IP** and enter the credentials obtained in the previous step.
@@ -49,7 +53,9 @@ From your Jumpbox, open a browser tab and paste the **HCX Cloud Manager IP** and
 
 ## **Option 2: Deploy HCX from a vCenter Content Library**
 
->**NOTE: An older copy of HCX exists already in the Content Library. Feel free to download and use the newer version through the steps above**
+{{< alert color="success" >}}
+You will perform the instructions below from the On-premises VMware Environment
+{{< /alert >}}
 
 ### Step 1: Access Content Libraries from on-premises vCenter
 

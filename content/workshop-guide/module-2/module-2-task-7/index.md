@@ -7,6 +7,10 @@ description: >
   Task 7: Configure HCX and connect to vCenter
 ---
 
+{{< alert color="success" >}}
+You will perform the instructions below from the On-premises VMware Environment
+{{< /alert >}}
+
 ## Configure On-Premises HCX
 
 In this section, we will integrate and configure HCX Manager with the On-Premises vCenter Server.

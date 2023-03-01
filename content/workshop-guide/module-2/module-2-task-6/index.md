@@ -7,6 +7,10 @@ description: >
   Task 6: Activate VMware HCX
 ---
 
+{{< alert color="success" >}}
+You will perform the instructions below from the On-premises VMware Environment
+{{< /alert >}}
+
 ## **Activate VMware HCX**
 
 In this task, we will activate the On-Premises HCX appliance that we just deployed in Task 4.
