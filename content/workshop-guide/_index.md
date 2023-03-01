@@ -11,6 +11,8 @@ cascade:
 
 ## **Training Environment**
 
+> Let's first agree on: AVS = Azure VMware Solution
+
 ### **Azure Portal Credentials**
 
 > Replace “**\#**” with your group number.

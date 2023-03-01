@@ -35,10 +35,10 @@ phase](https://docs.microsoft.com/en-us/azure/azure-vmware/plan-private-cloud-de
 2. Click **Network Profiles**.
 3. Click **CREATE NETWORK PROFILE**.
 Create a network profile, use IP addresses allocated during the planning phase. In this lab, these are in the [Getting Started](#_On-Premises_HCX_details_1) section. We will create 4 separate network profiles:
-    -  Management
-    -  vMotion
-    -  Replication
-    -  Uplink
+    - Management
+    - vMotion
+    - Replication
+    - Uplink
 
 #### Step 2: Enter information for each Network Profile
 
@@ -59,7 +59,16 @@ Create a network profile, use IP addresses allocated during the planning phase. 
 |----------------------------|---------------------------------|
 | Management Network IP      | 10.**X**.**Y**.10-10.**X**.**Y**.16 |
 | Prefix Length              | 27                              |
-| Management Network Gateway | 10.**X**.**Y**.1      
+| Management Network Gateway | 10.**X**.**Y**.1                |
+
+#### Uplink Network Profile
+
+| **Property**           | **Value**                       |
+|------------------------|---------------------------------|
+| Uplink Network IP      | 10.**X**.**Y**.34-10.**X**.**Y**.40 |
+| Prefix Length          | 28                              |
+| Uplink Network Gateway | 10.**X**.**Y**.33                 |
+| DNS                    | 1.1.1.1                         |
 
 #### vMotion Network Profile
 
@@ -78,12 +87,3 @@ Create a network profile, use IP addresses allocated during the planning phase. 
 | Prefix Length               | 27                                |
 | Replication Network Gateway | 10.**X**.**Y**.97                   |
 | DNS                         | 1.1.1.1                           |
-
-#### Uplink Network Profile
-
-| **Property**           | **Value**                       |
-|------------------------|---------------------------------|
-| Uplink Network IP      | 10.**X**.**Y**.34-10.**X**.**Y**.40 |
-| Prefix Length          | 28                              |
-| Uplink Network Gateway | 10.**X**.**Y**.33                 |
-| DNS                    | 1.1.1.1                         |
