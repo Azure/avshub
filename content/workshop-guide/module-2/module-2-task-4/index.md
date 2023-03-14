@@ -76,7 +76,7 @@ You will perform the instructions below from the On-premises VMware Environment
 
 ![](Mod2Task4Pic6.png)
 
-1.  Once the import is completed from the previous task, click **Templates**.
+1. Once the import is completed from the previous task, click **Templates**.
 2. Right Click the imported HCX template.
 3. Click **New VM from This Template**.
 
@@ -89,9 +89,12 @@ You will perform the instructions below from the On-premises VMware Environment
 
 #### Step 3: Assign a Network to the HCX Connector VM
 
+> The name of the **management** network might be different in your lab environment. For example: **OnPrem-management-x-y**. That is okay, please select it and proceed.
+
 ![](Mod2Task4Pic8.png)
 
 Keep the defaults for:
+
 - Compute Resource
 - Review details
 - License agreements (Accept)

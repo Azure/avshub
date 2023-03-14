@@ -57,6 +57,10 @@ Leave the Default Services and click **CONTINUE**.
 
 #### Step 5: Advanced Configuration - Override Uplink Network Profiles
 
+{{% alert title="Warning" color="warning" %}}
+Due to the current lab setup, please select network **OnPrem-management-x-y**. However, in typical production scenarios it is more likely to be the Uplink Network Profile.
+{{% /alert %}}
+
 ![](Mod2Task11Pic5.png)
 
 1. Click to select the previously created Source **Management Network Profile**, click **CLOSE**. Even though you created an Uplink Network Profile, for the purpose of this lab, the management network is used for uplink.
@@ -79,7 +83,7 @@ In Advanced Configuration – Traffic Engineering, review, leave the defaults an
 
 ![](Mod2Task11Pic8.png)
 
-Review the topology preview and click **CONTINUE**. 
+Review the topology preview and click **CONTINUE**.
 
 #### Step 9: Ready to Complete
 
@@ -103,4 +107,3 @@ The Service Mesh deployment will take 5-10 minutes to complete. Once successful,
 3. Check for **Tunnel Status = *UP***.
 
 You're ready to migrate and protect on-premises VMs to Azure VMware Solution using VMware HCX. Azure VMware Solution supports workload migrations (with or without a network extension). So you can still migrate workloads in your vSphere environment, along with On-Premises creation of networks and deployment of VMs onto those networks. For more information, see the [VMware HCX Documentation.](https://docs.vmware.com/en/VMware-HCX/index.html)
-
