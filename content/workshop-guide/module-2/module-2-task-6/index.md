@@ -31,7 +31,11 @@ In this task, we will activate the On-Premises HCX appliance that we just deploy
 
 ![](Mod2Task6Pic2.png)
 
-Once logged in, In **Licensing**, enter your key for **HCX Advanced Key** and select **Activate**. This process can take several minutes.
+Once logged in, follow the steps below.
+
+1.  Don't change the **HCX Activation Server** field. Please keep as is.
+2.  In **HCX License Key** field, please enter your key for **HCX Activation Key** that you obtains from AVS blade in Azure Portal.
+3.  Lastly, select **Activate**. Please keep in mind that this process can take several minutes.
 
 #### Step 3: Enter Datacenter Location, System Name
 

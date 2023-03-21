@@ -48,6 +48,10 @@ The next step is to download HCX onto our On-Premises VMware environment, this w
 
 {{< alert color="success" >}}The screenshot below is from AVS VMware Environment{{< /alert >}}
 
+The **Request Download Link** button will be *grayed out* initially but will be live after a minute or two. Do not navigate away from this page. Once available, you will have an option to Download the OVA or Copy a Link. 
+
+This link is valid for 1 week.
+
 ![](Mod2Task2Pic4.png)
 
-The Request Download Link button will be grayed out initially but will be live after a minute or two. Do not navigate away from this page. Once available, you will have an option to Download the OVA or Copy a Link. This link is valid for 1 week.
+
