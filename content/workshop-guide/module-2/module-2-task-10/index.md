@@ -68,7 +68,7 @@ A compute profile contains the compute, storage, and network settings that HCX u
 #### Step 7: Select Uplink Network Profile
 
 {{< alert color="warning" >}}
-Please make sure to select the **Management Network Profile** as the Uplink Network Profile.
+Please make sure to select **Management Network Profile** as the Uplink Network Profile.
 {{< /alert >}}
 
 ![](Mod2Task10Pic7.png)
