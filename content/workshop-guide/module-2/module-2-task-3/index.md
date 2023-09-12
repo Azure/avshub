@@ -59,7 +59,7 @@ You will perform the instructions below from the On-premises VMware Environment
 
 ### Step 1: Access Content Libraries from on-premises vCenter
 
-From the Jumpbox, browse to the on-premises vCenter URL, See [Getting Started](../_index.md/#on-premises-vmware-lab-environment) section for more information and login details.
+From the Jumpbox, browse to the on-premises vCenter URL, See [Getting Started](../../_index.md/#on-premises-vmware-lab-environment) section for more information and login details.
 
 ![](Mod2Task3Pic6.png)
 
