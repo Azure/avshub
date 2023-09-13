@@ -11,6 +11,10 @@ description: >
 You will perform the instructions below from the On-premises VMware Environment
 {{< /alert >}}
 
+{{% alert title="(Optional) Confirm HCX Health" color="info" %}}  
+You may perform some VMware HCX appliance basic health checks using HCX Central CLI (CCLI) commands before initiating migrations. The HCX Manager Central CLI is used for diagnostic information collection and secure connections to the Service Mesh. You may refer to these articles for additional information: [Troubleshooting VMware HCX](https://defaultreasoning.com/2023/01/17/troubleshooting-vmware-hcx/) and [Getting started with the HCX CCLI](https://hcx.design/2019/11/08/getting-started-with-the-hcx-central-cli-ccli/).
+{{% /alert %}} 
+
 ## **Migrate a VM using HCX vMotion**
 
 Now that your Service Mesh has deployed the additional appliances HCX will utilize successfully, you can now migrate VMs from your on-premises environment to AVS. In this module, you will migrate a test VM called **Workload-XY-1** that has been pre-created for you in your simulated on-premises environment using HCX vMotion.
