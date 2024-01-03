@@ -17,28 +17,15 @@ The next step is to download HCX onto our On-Premises VMware environment, this w
 
 ### Step 1: Locate AVS SDDC Identity Information
 
-![](Mod2Task2Pic1.png)
+![Locate AVS SDDC Identity Information](Mod2Task2Pic1.png)
 
 1. Obtain the AVS vCenter credentials by going to your AVS Private Cloud blade in the Azure portal, select **VMware credentials**.
 2. cloudadmin@vsphere.local is the local vCenter user for AVS, keep this handy.
 3. You can copy the Admin password to your clipboard and keep it handy as well.
 
-> Please access your own Jumpbox VM created at the beginning of the exercises.
-
-> Navigate to the Azure portal and connect to your Jumpbox.
-
-### Step 2: Connect to your Azure Jumpbox
-
-![](Mod2Task2Pic2.png)
-
-1. Click **Connect**.
-2. Click **Bastion**.
-
-> Enter the credentials you created for your Jumpbox.
-
 ### Step 3: Locate HCX Cloud Manager IP
 
-![](Mod2Task2Pic3.png)
+![Locate HCX Cloud Manager IP](Mod2Task2Pic3.png)
 
 1. In your AVS Private Cloud blade, click **+ Add-ons**.
 2. Click **Migration using HCX**.
@@ -52,6 +39,6 @@ The **Request Download Link** button will be *grayed out* initially but will be 
 
 This link is valid for 1 week.
 
-![](Mod2Task2Pic4.png)
+![Request HCX OVA Download Link](Mod2Task2Pic4.png)
 
 

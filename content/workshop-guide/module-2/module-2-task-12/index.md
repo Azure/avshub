@@ -27,38 +27,38 @@ For more information please visit VMware's documentation for [Extending Networks
 
 Once the Service Mesh appliances have been deployed, the next important step is to extend the on-premises network(s) to AVS, so that any migrated VM’s will be able to retain their existing IP address.
 
-### **Exercise 1: Create a Network Extension**
+### Step 1: Network Extension Creation
 
-#### Step 1: Network Extension Creation
-
-![](Mod2Task12Pic1.png)
+![Start Network Extension creation wizard](Mod2Task12Pic1.png)
 
 1. Click **Network Extension**.
 2. Click **CREATE A NETWORK EXTENSION**.
 
-#### Step 2: Select Source Networks to Extend
+### Step 2: Select Source Networks to Extend
 
-![](Mod2Task12Pic2.png)
+![Select Source Networks to Extend](Mod2Task12Pic2.png)
 
 1. **Select Service Mesh** - Ensure you select your own Service Mesh you created in an earlier step.
-2. Select **OnPrem-workload-XY** network.
+2. Select **OnPrem-workload-X-Y** network.
 3. Click **NEXT**.
 
-#### Step 3: Configure Network Extension
+### Step 3: Configure Network Extension
 
-![](Mod2Task12Pic3.png)
+![Configure Network Extension settings](Mod2Task12Pic3.png)
 
-1. **Destination First Hop Router** - Ensure your own NSX-T T1 router you created earlier is selected.
-2. Enter the **Gateway IP Address / Prefix Length** for the **OnPrem-workload-XY** network. You can find this information in the [On-Premises Lab Environment](../../#on-premises-vmware-lab-environment) section.
-- Example: 10.**X**.1**Y**.1/25, where **X** is your group number and **Y** is your participant number.
+1. **Destination First Hop Router**
+    * If applicable, ensure your own NSX-T T1 router you created earlier is selected.
+    * Otherwise, select the **TNT\*\*-T1** router.
+2. Enter the **Gateway IP Address / Prefix Length** for the **OnPrem-workload-X-Y** network. You can find this information in the [On-Premises Lab Environment](../../#on-premises-vmware-lab-environment) section.
+    * Example: 10.**X**.1**Y**.129/25, where **X** is your group number and **Y** is your participant number.
 3. Ensure your own **Extension Appliance** is selected.
 4. Confirm your own T1 is selected under **Destination First Hop Router**.
 5. Click **SUBMIT**.
 
 > It might take 5-10 minutes for the Network Extension to complete.
 
-#### Step 4: Confirm Status of Network Extension
+### Step 4: Confirm Status of Network Extension
 
-![](Mod2Task12Pic4.png)
+![Confirm Status of Network Extension](Mod2Task12Pic4.png)
 
 Confirm the status of the Network Extension as **Extension complete**.

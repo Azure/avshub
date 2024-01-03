@@ -15,38 +15,36 @@ You will perform the instructions below from the On-premises VMware Environment
 
 In this task, we will activate the On-Premises HCX appliance that we just deployed in Task 4.
 
-### **Exercise 1: Activate On-Premises HCX**
+### Step 1: Log in to HCX Appliance Management Interface
 
-#### Step 1: Log in to HCX Appliance Management Interface
-
-![](Mod2Task6Pic1.png)
+![Log in to HCX Appliance Management Interface](Mod2Task6Pic1.png)
 
 1. Browse to the On-Premises HCX Manager IP specified in Task 4 on port 9443 IP and login (Make sure you use **https://** in the address bar in the browser).
-- Example: <https://10.X.Y.9:9443>
+    * Example: <https://10.X.Y.9:9443>
 2. Login using the **HCX Credentials** specified in Task 4.
-- Username: admin
-- Password: Specified earlier in Task 4.
+    * **Username**: `admin`
+    * **Password**: `MSFTavs1!` (Specified earlier in Task 4).
 
-#### Step 2: Enter HCX Key
+### Step 2: Enter HCX Key
 
-![](Mod2Task6Pic2.png)
+![Enter HCX Key](Mod2Task6Pic2.png)
 
 Once logged in, follow the steps below.
 
-1.  Don't change the **HCX Activation Server** field. Please keep as is.
-2.  In **HCX License Key** field, please enter your key for **HCX Activation Key** that you obtains from AVS blade in Azure Portal.
-3.  Lastly, select **Activate**. Please keep in mind that this process can take several minutes.
+1. Don't change the **HCX Activation Server** field. Please keep as is.
+1. In **HCX License Key** field, please enter your key for **HCX Activation Key** that you obtains from AVS blade in Azure Portal.
+1. Lastly, select **Activate**. Please keep in mind that this process can take several minutes.
 
-#### Step 3: Enter Datacenter Location, System Name
+### Step 3: Enter Datacenter Location, System Name
 
-![](Mod2Task6Pic3.png)
+![Enter Datacenter Location, System Name](Mod2Task6Pic3.png)
 
-In **Datacenter Location**, provide the nearest biggest city to your location for installing the VMware HCX Manager On-Premises. Then select **Continue**. In **System Name**, modify the name to **HCX-OnPrem-XY** and click **Continue**.
+In **Datacenter Location**, provide the nearest biggest city to your location for installing the VMware HCX Manager On-Premises. Then select **Continue**. In **System Name**, modify the name to **HCX-OnPrem-X-Y** and click **Continue**.
 
 > Note: The city location does not matter in this lab. It's just a named location for visualization purposes.
 
-#### Step 4: Continue to complete configuration
+### Step 4: Continue to complete configuration
 
-![](Mod2Task6Pic4.png)
+![Continue to complete configuration](Mod2Task6Pic4.png)
 
 Click “**YES, CONTINUE”** for completing next task. After a few minutes HCX should be successfully activated.
