@@ -161,3 +161,8 @@ If you are in a group with multiple participants you will be assigned a particip
 | 1         | 2               | 10.1.2.2       | administrator@avs.lab | MSFTavs1! | 10.1.12.1/25        | 10.1.12.129/25      |
 | 1         | 3               | 10.1.3.2       | administrator@avs.lab | MSFTavs1! | 10.1.13.1/25        | 10.1.13.129/25      |
 | 1         | 4               | 10.1.4.2       | administrator@avs.lab | MSFTavs1! | 10.1.14.1/25        | 10.1.14.129/25      |
+
+#### Credentials for the Workload VM/s
+| **Username** | root      |
+|----------|-----------|
+| **Password** | 1TestVM!! |
