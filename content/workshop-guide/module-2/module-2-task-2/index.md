@@ -39,6 +39,4 @@ The **Request Download Link** button will be *grayed out* initially but will be 
 
 This link is valid for 1 week.
 
-![Request HCX OVA Download Link](Mod2Task2Pic4.png)
-
-
+![](Mod2Task2Pic4.png)
