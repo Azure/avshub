@@ -53,5 +53,3 @@ The **Request Download Link** button will be *grayed out* initially but will be 
 This link is valid for 1 week.
 
 ![](Mod2Task2Pic4.png)
-
-
