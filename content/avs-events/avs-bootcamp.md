@@ -1,6 +1,6 @@
 ---
-title: "12/07/2021 - GPS Azure VMware Solution Boot Camp"
-linkTitle: "GPS AVS Boot Camp, 12/07/2021"
+title: "Azure VMware Solution Bootcamp"
+linkTitle: "AVS Bootcamp"
 weight: 999
 date: 2024-12-15
 
@@ -15,8 +15,11 @@ Click here to view recording: [<span style="color:blue">**Azure VMware Solution 
 This virtual event is offered to all partners looking to increase there
 technical understanding of Azure VMware Services while considering business
 drivers and various infrastructure scenarios. Attendees will learn how to rely
-on the operating platform and backend infrastructure of Azure to run WMware
+on the operating platform and backend infrastructure of Azure to run VMware
 vSphere, vSAN, and NSX platforms natively and at scale while gaining exclusive
 access to leading Azure VMware Solution experts.
 
 You can also review the previous version of this bootcamp from last year: [<span style="color:blue">**Azure VMware Solution Boot Camp 2024**</span>](https://aka.ms/AVSBootcamp2024)
+
+
+
